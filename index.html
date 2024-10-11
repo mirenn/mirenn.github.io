@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* リセット */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .links a:hover {
+            background-color: #555;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- プロフィール画像とニックネーム -->
+        <img src="1.png" alt="Your Profile Picture">
+        <h1>mirenn00</h1>
+        <p>Here are some of my links to stay connected.</p>
+
+        <!-- リンク集 -->
+        <div class="links">
+            <a href="https://github.com/mirenn" target="_blank">GitHub</a>
+            <a href="https://twitter.com/mirenn00" target="_blank">Twitter</a>
+            <a href="https://www.youtube.com/@mirenn6682" target="_blank">YouTube</a>
+            <a href="http://mirennmm.hatenablog.com" target="_blank">Hatena Blog</a>
+            <a href="https://rookie.shonenjump.com/users/14942204321679474985"target="_blank">rookie.shonenjump</a>
+        </div>
+
+        <footer>
+            &copy; 2024 mirenn00
+        </footer>
+    </div>
+
+</body>
+</html>
